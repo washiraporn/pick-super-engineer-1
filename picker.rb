@@ -4,7 +4,7 @@ def pick_engineer()
 	random = rand(engineer_name.size) 
 	return engineer_name[random]
 end
-puts pick_engineer()
-def pick_featureA
+name = pick_engineer()
+def pick_featureA(name)
   name_A=name.gsub(" ","."t)
 end
