@@ -45,4 +45,5 @@ end
 test = pick_engineer()
 puts pick_featureA(test)
 puts pick_featureB(test)
-featureC("ana")
+t = ARGV[0]
+featureC(t)
