@@ -46,4 +46,8 @@ test = pick_engineer()
 puts pick_featureA(test)
 puts pick_featureB(test)
 t = ARGV[0]
-featureC(t)
+if t != nil
+	featureC(t)
+else
+	puts "you don't type"
+end
